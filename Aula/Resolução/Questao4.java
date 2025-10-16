@@ -9,7 +9,7 @@ public class Questao4 {
 
         boolean bissexto = (ano % 4 == 0) && (ano % 100 != 0 || ano % 400 == 0);
 
-        // Mostra o resultado
+        
         System.out.println("O ano " + ano + " é " + (bissexto ? "bissexto" : "não bissexto"));
 
         sc.close();
